@@ -1,41 +1,92 @@
+[v-cloak] {
+  display: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "PingFang SC", "Microsoft YaHei";
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+}
+
 #app .calculator-wrap {
-  display: inline-block;
-  width: 320px;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: #141A32;
+  display: flex;
+  flex-direction: column;
 }
 
 #app .calculator-wrap .screen-wrap {
-  padding: 10px;
-  border: 1px solid #CCCCCC;
-  border-bottom: none;
+  padding: 1.109rem 0.623rem;
+  flex: 1 0 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 #app .calculator-wrap .screen-wrap .screen {
-  font-size: 16px;
-  padding: 0 6px;
-  min-height: 28px;
-  line-height: 28px;
-  text-align: right;
-  font-family: Arial, Helvetica, sans-serif;
+  color: #E7EAEF;
+  font-size: 1.963rem;
+  min-height: 1.963rem;
+  line-height: 1;
   word-break: break-all;
 }
 
-#app .calculator-wrap .ctrl-wrap .ctrl-btn.is-active {
-  background: #333333;
+#app .calculator-wrap .ctrl-wrap {
+  background: #1E2747;
+  box-sizing: border-box;
+  font-size: 0;
+  padding: 0.363rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #app .calc-button {
-  width: 80px;
-  height: 36px;
-  font-size: 14px;
+  padding: 0;
+  margin: 0.362rem;
+  border: 0;
+  outline: 0;
+  text-align: center;
   transition: all 0.1s;
-  background: #EEEEEE;
+  width: 3.093rem;
+  height: 3.093rem;
+  line-height: 3.093rem;
+  border-radius: 50%;
+  background: rgba(229, 229, 234, 0.05);
+  color: #8E9CB2;
+  font-size: 1.28rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #app .calc-button:active,
 #app .calc-button.is-active {
-  background: #333333;
+  background: rgba(229, 229, 234, 0.4);
 }
 
-#app .calc-button.calc-button--0 {
-  width: 160px;
+#app .calc-button.calc-button--Clear,
+#app .calc-button.calc-button--LeftParentheses,
+#app .calc-button.calc-button--RightParentheses,
+#app .calc-button.calc-button--Div {
+  height: 2.219rem;
+  line-height: 2.219rem;
+  border-radius: 1.109rem;
+}
+
+#app .calc-button.calc-button--Equal {
+  background: #E68808;
+  color: #FFFFFF;
 }
