@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+</head>
+<body>
+  <div id="app">
+    <div class="calculator-wrap">
+      <div class="screen-wrap">
+        <div class="screen">
+          <span>{{ screenText }}</span>
+        </div>
+      </div>
+      <div class="ctrl-wrap">
+        <calc-button
+          v-for="key in keyboard"
+          :key="key"
+          :type="key"
+          :is-active="currentKey === key"
+          @click="onCtrlBtnClick"
+        />
+      </div>
+    </div>
+  </div>
+<script type="text/javascript" src="dist/main.js"></script></body>
+</html>
