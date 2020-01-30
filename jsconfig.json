@@ -1,0 +1,10 @@
+{
+  "exclude": ["nodule_modules", "dist"],
+  "compilerOptions": {
+    "checkJs": true,
+    "baseUrl": "./",
+    "paths": {
+      "src/*": ["./src/*"]
+    }
+  }
+}

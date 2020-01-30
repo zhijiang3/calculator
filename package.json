@@ -1,0 +1,11 @@
+{
+  "name": "calculator",
+  "version": "0.0.1",
+  "description": "javascript calculator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhijiang3/calculator.git"
+  },
+  "author": "zhijiang3<zhijiang34@gmail.com> (https://github.com/zhijiang3)",
+  "license": "MIT"
+}
