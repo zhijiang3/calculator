@@ -10,5 +10,7 @@
       }
     ]
   ],
-  "plugins": []
+  "plugins": [
+    "@vue/babel-plugin-transform-vue-jsx"
+  ]
 }

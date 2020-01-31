@@ -1,0 +1,124 @@
+
+.calculator-screen-text[data-v-66b9bc28] {
+  color: #E7EAEF;
+  font-size: 1.963rem;
+  min-height: 1.963rem;
+  line-height: 1;
+  word-break: break-all;
+}
+
+
+.calculator-ctrl-btn[data-v-461a3ef8] {
+  padding: 0;
+  margin: 0.362rem;
+  border: 0;
+  outline: 0;
+  text-align: center;
+  transition: all 0.1s;
+  width: 3.093rem;
+  height: 3.093rem;
+  line-height: 3.093rem;
+  border-radius: 50%;
+  background: rgba(229, 229, 234, 0.05);
+  color: #8E9CB2;
+  font-size: 1.28rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calculator-ctrl-btn .icon[data-v-461a3ef8] {
+  display: block;
+  font-size: 1.28rem;
+  width: 1.28rem;
+  height: 1.28rem;
+}
+.calculator-ctrl-btn[data-v-461a3ef8]:active,
+.calculator-ctrl-btn.is-active[data-v-461a3ef8] {
+  background: rgba(229, 229, 234, 0.4);
+}
+.calculator-ctrl-btn.calculator-ctrl-btn--clear[data-v-461a3ef8],
+.calculator-ctrl-btn.calculator-ctrl-btn--left-parentheses[data-v-461a3ef8],
+.calculator-ctrl-btn.calculator-ctrl-btn--right-parentheses[data-v-461a3ef8],
+.calculator-ctrl-btn.calculator-ctrl-btn--div[data-v-461a3ef8] {
+  height: 2.219rem;
+  line-height: 2.219rem;
+  border-radius: 1.109rem;
+}
+.calculator-ctrl-btn.calculator-ctrl-btn--equal[data-v-461a3ef8] {
+  background: #E68808;
+  color: #FFFFFF;
+}
+
+
+.calculator[data-v-043f16d5] {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background: #141A32;
+}
+.calculator-screen[data-v-043f16d5] {
+  background: #141A32;
+  flex: 1 0 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 1.109rem 0.623rem;
+}
+.calculator-ctrl[data-v-043f16d5] {
+  background: #1E2747;
+  box-sizing: border-box;
+  padding: 0.363rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.calculator-skeleton {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.calculator-screen-skeleton {
+  background: #EEEEEE;
+  flex: 1 0 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 1.109rem 0.623rem;
+}
+.calculator-screen-text-skeleton {
+  height: 1.963rem;
+  width: 85%;
+  background: #E5E5E5;
+}
+.calculator-ctrl-skeleton {
+  padding: 0.363rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.calculator-ctrl-row-skeleton {
+  height: 3.093rem;
+  margin: 0.362rem 0;
+  background: #EEEEEE;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "PingFang SC", "Microsoft YaHei";
+}
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+}
+

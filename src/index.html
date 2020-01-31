@@ -8,22 +8,16 @@
 </head>
 <body>
   <div id="app">
-    <div class="calculator-wrap" v-cloak>
-      <div class="screen-wrap">
-        <div class="screen">
-          <span>{{ screenText }}</span>
-        </div>
+    <div class="calculator-skeleton">
+      <div class="calculator-screen-skeleton">
+        <div class="calculator-screen-text-skeleton"></div>
       </div>
-      <div class="ctrl-wrap">
-        <calc-button
-          v-for="key in keyboard"
-          :key="key"
-          :type="key"
-          :is-active="currentKey === key"
-          @click="onCtrlBtnClick"
-        >
-          {{ getCalcBtnText(key) }}
-        </calc-button>
+      <div class="calculator-ctrl-skeleton">
+        <div class="calculator-ctrl-row-skeleton"></div>
+        <div class="calculator-ctrl-row-skeleton"></div>
+        <div class="calculator-ctrl-row-skeleton"></div>
+        <div class="calculator-ctrl-row-skeleton"></div>
+        <div class="calculator-ctrl-row-skeleton"></div>
       </div>
     </div>
   </div>
