@@ -8,7 +8,7 @@
 }
 
 
-.calculator-ctrl-btn[data-v-461a3ef8] {
+.calculator-ctrl-btn[data-v-4850a62c] {
   padding: 0;
   margin: 0.362rem;
   border: 0;
@@ -26,25 +26,25 @@
   align-items: center;
   justify-content: center;
 }
-.calculator-ctrl-btn .icon[data-v-461a3ef8] {
+.calculator-ctrl-btn .icon[data-v-4850a62c] {
   display: block;
   font-size: 1.28rem;
   width: 1.28rem;
   height: 1.28rem;
 }
-.calculator-ctrl-btn[data-v-461a3ef8]:active,
-.calculator-ctrl-btn.is-active[data-v-461a3ef8] {
+.calculator-ctrl-btn[data-v-4850a62c]:active,
+.calculator-ctrl-btn.is-active[data-v-4850a62c] {
   background: rgba(229, 229, 234, 0.4);
 }
-.calculator-ctrl-btn.calculator-ctrl-btn--clear[data-v-461a3ef8],
-.calculator-ctrl-btn.calculator-ctrl-btn--left-parentheses[data-v-461a3ef8],
-.calculator-ctrl-btn.calculator-ctrl-btn--right-parentheses[data-v-461a3ef8],
-.calculator-ctrl-btn.calculator-ctrl-btn--div[data-v-461a3ef8] {
+.calculator-ctrl-btn.calculator-ctrl-btn--clear[data-v-4850a62c],
+.calculator-ctrl-btn.calculator-ctrl-btn--left-parentheses[data-v-4850a62c],
+.calculator-ctrl-btn.calculator-ctrl-btn--right-parentheses[data-v-4850a62c],
+.calculator-ctrl-btn.calculator-ctrl-btn--div[data-v-4850a62c] {
   height: 2.219rem;
   line-height: 2.219rem;
   border-radius: 1.109rem;
 }
-.calculator-ctrl-btn.calculator-ctrl-btn--equal[data-v-461a3ef8] {
+.calculator-ctrl-btn.calculator-ctrl-btn--equal[data-v-4850a62c] {
   background: #E68808;
   color: #FFFFFF;
 }

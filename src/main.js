@@ -6,13 +6,11 @@ window.onload = function() {
   document.documentElement.style.fontSize = `${Math.min(400 / 16, document.documentElement.clientWidth / 16)}px`;
 };
 
-setTimeout(() => {
-  new Vue({
-    el: "#app",
-    store,
-    components: {
-      App
-    },
-    render: h => h(App)
-  }).$mount();
-}, 1500);
+new Vue({
+  el: "#app",
+  store,
+  components: {
+    App
+  },
+  render: h => h(App)
+}).$mount();

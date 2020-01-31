@@ -344,14 +344,17 @@ export default {
       if (isCalculatorRightParentheses(lastWord)) return;
 
       // 检查最近的一个数字是否没有小数点
-      let number = "";
-      for (let word of this.expression) {
+      let number = [];
+      let current = this.expression.length;
+      while (current--) {
+        const word = this.expression[current];
+
         if (isCalculatorOperator(word)) break;
 
-        number = word + number;
+        number.push(word);
       }
-      for (let i = 0; i < number.length; i++) {
-        if (isCalculatorDot(number[i])) return;
+      for (let word of number) {
+        if (isCalculatorDot(word)) return;
       }
 
       const dot = parseCalculatorKey(".");
